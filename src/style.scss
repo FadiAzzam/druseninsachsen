@@ -1,0 +1,259 @@
+
+
+$blue:    #184a7c;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #d63384;
+$red:     #dc3545;
+$orange:  #fd7e14;
+$yellow:  #ffc107;
+$green:   #198754;
+$teal:    #20c997;
+$cyan:    #0dcaf0;
+
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+$primary:       $blue;
+$secondary:     $gray-400;
+$success:       $green;
+$info:          $cyan;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-900;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+$grays: (
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+);
+
+@import "bootstrap";
+
+* {
+  font-family: "Roboto", "Almarai" !important;
+}
+
+:root {
+  --aims-clr-light: #ffffff;
+  --aims-clr-dark: rgb(24, 74, 124);
+  --aims-clr-primary: rgb(24, 74, 124);
+  --aims-clr-secondary: #007bff69;
+  --aims-clr-accent: #ff7750;
+  --aims-sec-clr-accent: #00b5ad;
+  --aims-clr-font: #000000;
+  --aims-clr-font-surface: var(--aims-clr-light);
+  --aims-clr-font-light: var(--aims-clr-primary);
+
+  --aims-fs-nomral: 14px;
+  --aims-seite-direction: ltr;
+
+  --aims-foreground: var(--aims-clr-light);
+  --aims-background: var(--aims-clr-light);
+  --aims-surface-background: var(--aims-clr-primary);
+  --aims-elementsbackground: var(--aims-clr-primary);
+  --aims-on-surface: #b6daff57;
+
+  --aims-line-clr: #00000020;
+  //--aims-surface-background: var(--aims-clr-light);
+}
+
+.darkmode {
+  --aims-clr-light: #f8f8f8;
+  --aims-clr-dark: #262626;
+
+  --aims-fs-nomral: 14px;
+  --aims-clr-primary: #2e2f30;
+  --aims-clr-secondary: #5f7281;
+  --aims-clr-accent: #ff7750;
+  --aims-clr-font: #ffffff;
+  --aims-clr-font-surface: var(--aims-clr-dark);
+  --aims-clr-font-light: #f8f8f8;
+
+  --aims-foreground: var(--aims-clr-light);
+  --aims-background: var(--aims-clr-dark);
+  --aims-surface-background: var(--aims-clr-primary);
+  --aims-on-surface: #393b3c;
+  --aims-elementsbackground: var(--aims-clr-primary);
+
+  --aims-line-clr: #2e2f30;
+}
+
+.secondaryHover:hover, .secondaryHover:focus{
+  background-color: $info!important;
+  color: $primary!important;
+}
+
+.text-align-justify{
+  text-align: justify;
+}
+
+.bg-shadow{
+  background: rgb(24 74 124 / 42%);
+  color: white!important
+}
+
+
+.App-header{
+  background-color: $primary;
+  margin-bottom: 4rem;
+
+}
+
+.landingPageHeader{
+  background-color: $primary;
+  height: 50vh;
+}
+
+
+//Animation
+@keyframes zahn {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+  }
+
+}
+
+
+#logoZahn {
+  animation: zahn 5s infinite linear;
+  transform-origin: center;
+  animation-timing-function: ease-in-out;
+}
+
+.bubbleContainer {
+  justify-content: space-around;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  animation-name: bubblesIn;
+  animation-duration: 40s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+
+@keyframes bubblesIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@for $i from 1 through 50 {
+  $size: random(50)+1+px;
+
+  .bubbleX#{$i} {
+    display: inline-block;
+    width: $size;
+    height: $size;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.257);
+    transform: translateX(0);
+    animation-name: bubbleX#{$i};
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+  }
+
+  .bubbleY#{$i} {
+    //z-index: 5000;
+    //margin-top: random(200) + px;
+    left: random(156) + px;
+    animation-name: bubbleY;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(0);
+    opacity: .6;
+    animation-delay: random(15) + s;
+    position: relative;
+    height: 100%;
+  }
+
+  .bubbleY#{$i}:hover:after {
+    font-family: "FontAwesome" !important;
+    content: "\f132";
+    color: var(--aims-clr-primary) !important;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    font-size: 100% !important;
+    //background-color: var(--aims-clr-secondary);
+    transition: 1s;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes bubbleX#{$i} {
+    0% {
+      transform: translateX(0);
+    }
+
+    20% {
+      transform: translateX(-random(15) + px)
+    }
+
+    40% {
+      transform: translateX(random(15) + px)
+    }
+
+    60% {
+      transform: translateX(-random(15) + px)
+    }
+
+    80% {
+      transform: translateX(random(15) + px)
+    }
+
+    100% {
+      transform: translateX(-random(15) + px);
+    }
+  }
+
+  @keyframes bubbleY {
+    0% {
+      transform: translateY(0);
+    }
+
+
+    100% {
+      transform: translateY(-100vh);
+      opacity: 0;
+    }
+  }
+}
