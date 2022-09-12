@@ -1,3 +1,11 @@
+//Custom colors
+$OrangyRed:#A66556;
+$LemonGrass:#9c9c8b;
+$BalticSea:#2B2C33;
+$CarbonGrey:#605E5E;
+$Platinum:#E7E3E3;
+
+
 
 
 $blue:    #184a7c;
@@ -23,14 +31,17 @@ $gray-800: #343a40;
 $gray-900: #212529;
 $black:    #000;
 
-$primary:       $blue;
-$secondary:     $gray-400;
+$primary:       $BalticSea;
+$btn-primary:   $OrangyRed;
+$secondary:     $LemonGrass;
+$dark:          $BalticSea;
+$light:         $Platinum;
+
 $success:       $green;
 $info:          $cyan;
 $warning:       $yellow;
 $danger:        $red;
-$light:         $gray-100;
-$dark:          $gray-900;
+
 
 $theme-colors: (
   "primary":    $primary,
@@ -57,53 +68,14 @@ $grays: (
 
 @import "bootstrap";
 
-* {
-  font-family: "Roboto", "Almarai" !important;
+.btn-primary{
+  background-color: $btn-primary;
+  border-color: $btn-primary;
 }
 
-:root {
-  --aims-clr-light: #ffffff;
-  --aims-clr-dark: rgb(24, 74, 124);
-  --aims-clr-primary: rgb(24, 74, 124);
-  --aims-clr-secondary: #007bff69;
-  --aims-clr-accent: #ff7750;
-  --aims-sec-clr-accent: #00b5ad;
-  --aims-clr-font: #000000;
-  --aims-clr-font-surface: var(--aims-clr-light);
-  --aims-clr-font-light: var(--aims-clr-primary);
-
-  --aims-fs-nomral: 14px;
-  --aims-seite-direction: ltr;
-
-  --aims-foreground: var(--aims-clr-light);
-  --aims-background: var(--aims-clr-light);
-  --aims-surface-background: var(--aims-clr-primary);
-  --aims-elementsbackground: var(--aims-clr-primary);
-  --aims-on-surface: #b6daff57;
-
-  --aims-line-clr: #00000020;
-  //--aims-surface-background: var(--aims-clr-light);
-}
-
-.darkmode {
-  --aims-clr-light: #f8f8f8;
-  --aims-clr-dark: #262626;
-
-  --aims-fs-nomral: 14px;
-  --aims-clr-primary: #2e2f30;
-  --aims-clr-secondary: #5f7281;
-  --aims-clr-accent: #ff7750;
-  --aims-clr-font: #ffffff;
-  --aims-clr-font-surface: var(--aims-clr-dark);
-  --aims-clr-font-light: #f8f8f8;
-
-  --aims-foreground: var(--aims-clr-light);
-  --aims-background: var(--aims-clr-dark);
-  --aims-surface-background: var(--aims-clr-primary);
-  --aims-on-surface: #393b3c;
-  --aims-elementsbackground: var(--aims-clr-primary);
-
-  --aims-line-clr: #2e2f30;
+.btn-primary:hover, .btn-primary:focus{
+  background-color: #b9553e!important;
+  border-color: #b9553e!important;
 }
 
 .secondaryHover:hover, .secondaryHover:focus{
@@ -122,14 +94,21 @@ $grays: (
 
 
 .App-header{
-  background-color: $primary;
   margin-bottom: 4rem;
-
+  height: 100vh;
 }
 
-.landingPageHeader{
-  background-color: $primary;
-  height: 50vh;
+.fixed-top{
+  -webkit-transition: background-color 500ms ease-in-out;
+    -ms-transition: background-color 500ms ease-in-out;
+    transition: background-color 500ms ease-in-out;
+}
+
+
+.center-element{
+  height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -142,7 +121,6 @@ $grays: (
   100% {
     transform: rotateZ(360deg);
   }
-
 }
 
 
@@ -161,6 +139,16 @@ $grays: (
   animation-duration: 40s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
+
+  position: absolute;
+    bottom: -58px;
+    max-width: 80%;
+    left: 0;
+    right: 0;
+}
+
+.m-w30{
+  max-width: 30rem;
 }
 
 
@@ -256,4 +244,11 @@ $grays: (
       opacity: 0;
     }
   }
+}
+
+
+.background {
+  background:linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("./static/imgs/romanTheatre.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
