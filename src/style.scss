@@ -75,6 +75,10 @@ $grays: (
   border-color: $btn-primary;
 }
 
+.text-primary{
+  color: $btn-primary!important;
+}
+
 .btn-primary:hover, .btn-primary:focus{
   background-color: #b9553e!important;
   border-color: #b9553e!important;
@@ -113,9 +117,56 @@ $grays: (
     justify-content: center;
 }
 
+.center-image{
+  max-height: 400px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .non-hover:hover{
   background-color: transparent;
 }
+
+
+.custom-card{
+    padding: 10px;
+    margin: 10px;
+    color: $Platinum;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    min-width: 100px;
+    min-height: 400px;
+    // background:url("./static/imgs/234cd8fe-89bc-45f6-b88a-79a38af28d26.jpg") 50% 1% / cover no-repeat;;
+    display: flex;
+    align-items: end;
+    position: relative;
+}
+
+.custom-card-img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+
+.custom-card-content{
+  z-index: 1;
+  background-color: #9c9c8bd1;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+}
+
 
 //Animation
 @keyframes zahn {
@@ -257,3 +308,16 @@ $grays: (
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.img-background {
+  background:linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("./static/imgs/fadi-alagi-yxl9NLYbo7o-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5rem;
+  color: $Platinum;
+}
+

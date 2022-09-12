@@ -11,7 +11,6 @@ const Functionality = () => {
                     </p>
                 </div>
                 <div className="col-md-6 d-flex flex-column justify-content-center">
-                <img width="100%" height="" alt='Architektur Bild' src={require('../../static/imgs/Documentation/functionality.gif')}></img>
                 </div>
             </div>
 
@@ -24,13 +23,10 @@ const Functionality = () => {
                     Intuitive Benutzeroberfläche für die Formularerstellung und Dateneingabe. Erweiterte Funktionen wie Datenbereichsprüfung, Verzweigungslogik und berechnete Felder- Online- oder Offline-Projektierung.                    </p>
                 </div>
                 <div className="col-md-4 d-flex flex-column justify-content-center">
-                    <img width="100%" height="" alt='Architektur Bild' src={require('../../static/imgs/Documentation/uniKlinik.png')}></img>
                 </div>
                 <div className="col-md-4 d-flex flex-column justify-content-center">
-                    <img width="100%" height="" alt='Architektur Bild' src={require('../../static/imgs/Documentation/uni.png')}></img>
                 </div>
                 <div className="col-md-4 d-flex flex-column justify-content-center">
-                    <img width="100%" height="" alt='Architektur Bild' src={require('../../static/imgs/Documentation/chimical.png')}></img>
                 </div>
             </div>
 
@@ -64,7 +60,6 @@ const Functionality = () => {
                     </p>
                 </div>
                 <div className="col-md-12 d-flex flex-column justify-content-center">
-                    <img width="100%" height="" alt='Architektur Bild' src={require('../../static/imgs/Documentation/AuditTrails.png')}></img>
                 </div>
             </div>
 

@@ -25,7 +25,6 @@ const TechnicalRequirements = () => {
               </p>
           </div>
           <div className="col-md-12 d-flex flex-column justify-content-center">
-          <img width="100%" height="" alt='Architektur Bild' src={require('../../static/imgs/Documentation/CloudVSonPremise.gif')}></img>
           </div>
       </div>
 

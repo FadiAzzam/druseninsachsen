@@ -12,7 +12,6 @@ const DataSecurity = () => {
               </p>
           </div>
           <div className="col-md-6 d-flex flex-column justify-content-center">
-          <img width="100%" height="" alt='Architektur Bild' src={require('../../static/imgs/Documentation/datensicherheit.gif')}></img>
           </div>
       </div>
 

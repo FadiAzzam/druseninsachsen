@@ -2,10 +2,9 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-import AppLogo from "../static/imgs/appLogo.svg"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faEnvelope, faIdCard} from '@fortawesome/free-solid-svg-icons'
+import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
     return (
@@ -40,7 +39,7 @@ const Footer = () => {
                         <ul className="list-unstyled text-small ">
                             <li className='dropdown-item text-secondary non-hover'>
                                 <FontAwesomeIcon icon={faEnvelope} className="me-2"/>
-                                Drusen-in-sachsen@outlook.de
+                                <a className='text-light'  href="mailto:drusen-in-sachsen@outlook.de">Drusen-in-sachsen@outlook.de</a>
                             </li>
                             <li className='dropdown-item text-secondary non-hover'>
                                 VR11705 - Amtsgericht Dresden <br/> Eintragung am 29 Oktober 2020
