@@ -22,7 +22,7 @@ const Header = () => {
             <div className='container center-element'>
                 <nav className={`navbar navbar-expand-lg navbar-dark fixed-top ${bgColor}`}>
                     <div className="container">
-                        <a className="navbar-brand" href="./home">
+                        <a className="navbar-brand" href="./drusen-in-sachsen">
                             Drusen in Sachsen e. V.
                         </a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +31,7 @@ const Header = () => {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav mb-2 mb-lg-0 ms-auto">
                                 <li className="nav-item">
-                                    <Link className='nav-link active' to="./home">Home</Link>
+                                    <Link className='nav-link active' to="./drusen-in-sachsen">Home</Link>
                                 </li>
                                 {/* <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -47,7 +47,7 @@ const Header = () => {
                                     </ul>
                                 </li> */}
                                 <li className="nav-item">
-                                    <Link className='nav-link ' to="./home">Über uns</Link>
+                                    <Link className='nav-link ' to="./drusen-in-sachsen">Über uns</Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className='nav-link ' to="./contact">Über Drusen</Link>
