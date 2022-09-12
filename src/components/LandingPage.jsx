@@ -17,7 +17,7 @@ const LandingPage = () => {
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
                             <div className="custom-card-footer">
-                                <p><a className="btn btn-primary" href="#">View details</a></p>
+                                <p><a className="btn btn-primary" href="/">View details</a></p>
                             </div>
                         </div>
                     </div>

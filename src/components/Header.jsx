@@ -22,7 +22,7 @@ const Header = () => {
             <div className='container center-element'>
                 <nav className={`navbar navbar-expand-lg navbar-dark fixed-top ${bgColor}`}>
                     <div className="container">
-                        <a className="navbar-brand" href="/">
+                        <a className="navbar-brand" href="./home">
                             Drusen in Sachsen e. V.
                         </a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +31,7 @@ const Header = () => {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav mb-2 mb-lg-0 ms-auto">
                                 <li className="nav-item">
-                                    <Link className='nav-link active' to="/">Home</Link>
+                                    <Link className='nav-link active' to="./home">Home</Link>
                                 </li>
                                 {/* <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -47,22 +47,22 @@ const Header = () => {
                                     </ul>
                                 </li> */}
                                 <li className="nav-item">
-                                    <Link className='nav-link ' to="/contact">Über uns</Link>
+                                    <Link className='nav-link ' to="./home">Über uns</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className='nav-link ' to="/contact">Über Drusen</Link>
+                                    <Link className='nav-link ' to="./contact">Über Drusen</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className='nav-link ' to="/contact">Nachrichten</Link>
+                                    <Link className='nav-link ' to="./contact">Nachrichten</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className='nav-link ' to="/contact">Registrieren</Link>
+                                    <Link className='nav-link ' to="./contact">Registrieren</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className='nav-link ' to="/contact">Contact</Link>
+                                    <Link className='nav-link ' to="./contact">Contact</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className='nav-link ' to="/impressum">Impressum</Link>
+                                    <Link className='nav-link ' to="./impressum">Impressum</Link>
                                 </li>
                             </ul>
 

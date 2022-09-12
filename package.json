@@ -1,7 +1,7 @@
 {
   "name": "website-aims",
   "version": "0.1.0",
-  "homepage": "https://fadiazzam.github.io/drusen-in-sachsen/",
+  "homepage": "https://fadiazzam.github.io/drusen-in-sachsen",
   "private": true,
   "dependencies": {
     "@fontsource/roboto": "^4.5.7",
@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
-    "sass": "^1.52.3"
+    "sass": "^1.52.3",
+    "gh-pages":"^4.0.0"
   }
 }
