@@ -203,6 +203,15 @@ $grays: (
     right: 0;
 }
 
+@media only screen and (max-width: 768px) {
+  .bubbleContainer {
+    right: 200px;
+  }
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
 .m-w30{
   max-width: 30rem;
 }

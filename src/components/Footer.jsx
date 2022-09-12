@@ -11,11 +11,11 @@ const Footer = () => {
         <footer className="py-5 bg-primary mt-5">
             <div className='container'>
                 <div className="row my-5">
-                    <div className="col text-light">
-                    Drusen in Sachsen e. V.
+                    <div className="col-3 text-light">
+                        <h5 className='text-info'>Drusen in Sachsen e. V.</h5>
                         <small className="d-block mb-3 text-secondary">© 2022</small>
                     </div>
-                    <div className="col">
+                    <div className="col-3">
                         <h5 className='text-info'>Über uns</h5>
                         <ul className="list-unstyled text-small">
                             <li><Link className='dropdown-item text-secondary secondaryHover' to="/contact">Über uns</Link></li>
@@ -24,17 +24,17 @@ const Footer = () => {
                             <li><Link className='dropdown-item text-secondary secondaryHover' to="/contact">Kontakt</Link></li>
                         </ul>
                     </div>
-                    <div className="col">
+                    <div className="col-3">
                         <h5 className='text-info'>Veranstaltungen</h5>
                         <ul className="list-unstyled text-small ">
                             <li><Link className='dropdown-item text-secondary secondaryHover' to="/functionality">11.09.2022 Albrechtsburg Meissen</Link></li>
                             <li><Link className='dropdown-item text-secondary secondaryHover' to="/functionality">17.09.2022 Dresden japanisches palais</Link></li>
                             <li><Link className='dropdown-item text-secondary secondaryHover' to="/functionality">22.10.2022 Spaziergang</Link></li>
-                            <li><Link className='dropdown-item text-secondary secondaryHover' to="/functionality">11.12.2022 Robot Programming for Everyone</Link></li>
+                            <li><Link className='dropdown-item text-secondary secondaryHover text-wrap' to="/functionality">11.12.2022 Robot Programming for Everyone</Link></li>
 
                         </ul>
                     </div>
-                    <div className="col">
+                    <div className="col-3">
                         <h5 className='text-info'>Information</h5>
                         <ul className="list-unstyled text-small ">
                             <li className='dropdown-item text-secondary non-hover'>
