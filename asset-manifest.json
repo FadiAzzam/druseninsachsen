@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/drusen-in-sachsen/static/css/main.9aebe1a6.css",
+    "main.css": "/drusen-in-sachsen/static/css/main.41c3b0c7.css",
     "main.js": "/drusen-in-sachsen/static/js/main.91fe1c7c.js",
     "static/media/fadi-alagi-yxl9NLYbo7o-unsplash.jpg": "/drusen-in-sachsen/static/media/fadi-alagi-yxl9NLYbo7o-unsplash.4d237ae158d8cbba8981.jpg",
     "static/media/234cd8fe-89bc-45f6-b88a-79a38af28d26.jpg": "/drusen-in-sachsen/static/media/234cd8fe-89bc-45f6-b88a-79a38af28d26.aa983c77a637bd9bfb03.jpg",
@@ -24,11 +24,11 @@
     "static/media/roboto-vietnamese-400-normal.woff2": "/drusen-in-sachsen/static/media/roboto-vietnamese-400-normal.3230f9b040f3c630e0c3.woff2",
     "static/media/roboto-greek-ext-400-normal.woff2": "/drusen-in-sachsen/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "index.html": "/drusen-in-sachsen/index.html",
-    "main.9aebe1a6.css.map": "/drusen-in-sachsen/static/css/main.9aebe1a6.css.map",
+    "main.41c3b0c7.css.map": "/drusen-in-sachsen/static/css/main.41c3b0c7.css.map",
     "main.91fe1c7c.js.map": "/drusen-in-sachsen/static/js/main.91fe1c7c.js.map"
   },
   "entrypoints": [
-    "static/css/main.9aebe1a6.css",
+    "static/css/main.41c3b0c7.css",
     "static/js/main.91fe1c7c.js"
   ]
 }
