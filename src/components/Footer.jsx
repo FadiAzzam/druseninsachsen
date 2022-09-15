@@ -12,7 +12,7 @@ const Footer = () => {
             <div className='container'>
                 <div className="row my-5">
                     <div className="col-3 text-light">
-                        <h5 className='text-info'>Drusen in Sachsen e. V.</h5>
+                        <h5 className='text-info'>Drusen in Sachsen e. V. </h5>
                         <small className="d-block mb-3 text-secondary">© 2022</small>
                     </div>
                     <div className="col-3">
