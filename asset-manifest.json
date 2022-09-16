@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/druseninsachsen/static/css/main.82d8505a.css",
-    "main.js": "/druseninsachsen/static/js/main.caeeec13.js",
+    "main.css": "/druseninsachsen/static/css/main.2da69693.css",
+    "main.js": "/druseninsachsen/static/js/main.95cec45d.js",
     "static/media/fadi-alagi-yxl9NLYbo7o-unsplash.jpg": "/druseninsachsen/static/media/fadi-alagi-yxl9NLYbo7o-unsplash.4d237ae158d8cbba8981.jpg",
     "static/media/234cd8fe-89bc-45f6-b88a-79a38af28d26.jpg": "/druseninsachsen/static/media/234cd8fe-89bc-45f6-b88a-79a38af28d26.aa983c77a637bd9bfb03.jpg",
     "static/media/groupBild03.jpeg": "/druseninsachsen/static/media/groupBild03.aa983c77a637bd9bfb03.jpeg",
@@ -24,11 +24,11 @@
     "static/media/roboto-vietnamese-400-normal.woff2": "/druseninsachsen/static/media/roboto-vietnamese-400-normal.3230f9b040f3c630e0c3.woff2",
     "static/media/roboto-greek-ext-400-normal.woff2": "/druseninsachsen/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "index.html": "/druseninsachsen/index.html",
-    "main.82d8505a.css.map": "/druseninsachsen/static/css/main.82d8505a.css.map",
-    "main.caeeec13.js.map": "/druseninsachsen/static/js/main.caeeec13.js.map"
+    "main.2da69693.css.map": "/druseninsachsen/static/css/main.2da69693.css.map",
+    "main.95cec45d.js.map": "/druseninsachsen/static/js/main.95cec45d.js.map"
   },
   "entrypoints": [
-    "static/css/main.82d8505a.css",
-    "static/js/main.caeeec13.js"
+    "static/css/main.2da69693.css",
+    "static/js/main.95cec45d.js"
   ]
 }
