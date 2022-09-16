@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.f11c626f.css",
+    "main.css": "/static/css/main.6433f3ba.css",
     "main.js": "/static/js/main.a60ac5f1.js",
     "static/media/fadi-alagi-yxl9NLYbo7o-unsplash.jpg": "/static/media/fadi-alagi-yxl9NLYbo7o-unsplash.4d237ae158d8cbba8981.jpg",
     "static/media/234cd8fe-89bc-45f6-b88a-79a38af28d26.jpg": "/static/media/234cd8fe-89bc-45f6-b88a-79a38af28d26.aa983c77a637bd9bfb03.jpg",
@@ -24,11 +24,11 @@
     "static/media/roboto-vietnamese-400-normal.woff2": "/static/media/roboto-vietnamese-400-normal.3230f9b040f3c630e0c3.woff2",
     "static/media/roboto-greek-ext-400-normal.woff2": "/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "index.html": "/index.html",
-    "main.f11c626f.css.map": "/static/css/main.f11c626f.css.map",
+    "main.6433f3ba.css.map": "/static/css/main.6433f3ba.css.map",
     "main.a60ac5f1.js.map": "/static/js/main.a60ac5f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.f11c626f.css",
+    "static/css/main.6433f3ba.css",
     "static/js/main.a60ac5f1.js"
   ]
 }
