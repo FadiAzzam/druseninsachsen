@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.08b1d607.css",
-    "main.js": "/static/js/main.5faebbb9.js",
+    "main.css": "/static/css/main.1024c225.css",
+    "main.js": "/static/js/main.7f930407.js",
     "static/media/fadi-alagi-yxl9NLYbo7o-unsplash.jpg": "/static/media/fadi-alagi-yxl9NLYbo7o-unsplash.4d237ae158d8cbba8981.jpg",
+    "static/media/Druzen_Bev_lkerungszahlen.png": "/static/media/Druzen_Bev_lkerungszahlen.4f3d57d3dd758cfb5fd8.png",
     "static/media/234cd8fe-89bc-45f6-b88a-79a38af28d26.jpg": "/static/media/234cd8fe-89bc-45f6-b88a-79a38af28d26.aa983c77a637bd9bfb03.jpg",
     "static/media/groupBild03.jpeg": "/static/media/groupBild03.aa983c77a637bd9bfb03.jpeg",
     "static/media/groupBild.jpeg": "/static/media/groupBild.713ffd0a8367658cd132.jpeg",
@@ -24,11 +25,11 @@
     "static/media/roboto-vietnamese-400-normal.woff2": "/static/media/roboto-vietnamese-400-normal.3230f9b040f3c630e0c3.woff2",
     "static/media/roboto-greek-ext-400-normal.woff2": "/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "index.html": "/index.html",
-    "main.08b1d607.css.map": "/static/css/main.08b1d607.css.map",
-    "main.5faebbb9.js.map": "/static/js/main.5faebbb9.js.map"
+    "main.1024c225.css.map": "/static/css/main.1024c225.css.map",
+    "main.7f930407.js.map": "/static/js/main.7f930407.js.map"
   },
   "entrypoints": [
-    "static/css/main.08b1d607.css",
-    "static/js/main.5faebbb9.js"
+    "static/css/main.1024c225.css",
+    "static/js/main.7f930407.js"
   ]
 }
