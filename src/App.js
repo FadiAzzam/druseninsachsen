@@ -7,6 +7,9 @@ import Impressum from "./components/Impressum";
 import Faq from "./components/Faq";
 
 
+import AboutDurse from "./components/AboutDurse";
+
+
 import {
   BrowserRouter as Router,
 } from "react-router-dom";
@@ -23,6 +26,8 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/impressum" element={<Impressum />} />
           <Route path="/faq" element={<Faq />} />
+          <Route path="/about-druse" element={<AboutDurse />} />
+
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />

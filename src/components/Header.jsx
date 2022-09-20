@@ -3,8 +3,7 @@ import React,{useState} from 'react'
 import { Link } from "react-router-dom";
 
 
-import SvgLogo from '../static/imgs/SvgLogo';
-import SvgLogoText from '../static/imgs/SvgLogoText';
+import Logo from '../static/imgs/Logo';
 
 import BubbleContainer from './BubbleContainer'
 const Header = () => {
@@ -23,7 +22,8 @@ const Header = () => {
                 <nav className={`navbar navbar-expand-lg navbar-dark fixed-top ${bgColor}`}>
                     <div className="container">
                         <a className="navbar-brand" href="./">
-                            Drusen in Sachsen e. V.
+                            <Logo width="40px" height="10%" className="head-logo"/>
+                            <span className='ms-2 text-uppercase'>Drusen in Sachsen e. V.</span>
                         </a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
@@ -31,38 +31,25 @@ const Header = () => {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav mb-2 mb-lg-0 ms-auto">
                                 <li className="nav-item">
-                                    <Link className='nav-link active' to="./">Home</Link>
-                                </li>
-                                {/* <li className="nav-item dropdown">
-                                    <a className="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Dokumentation
-                                    </a>
-                                    <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                        <li><Link className='dropdown-item' to="/functionality">Funktonalität</Link></li>
-                                        <li><Link className='dropdown-item' to="/data-security">Datensicherheit</Link></li>
-                                        <li><Link className='dropdown-item' to="/technical-requirements">technische Voraussetzungen</Link></li>
-                                        <li><Link className='dropdown-item' to="/tutorial">Tutorial</Link></li>
-                                        <li><Link className='dropdown-item' to="/interfaces">Schnittstellen</Link></li>
-                                        <li><Link className='dropdown-item' to="/faq">FAQ</Link></li>
-                                    </ul>
-                                </li> */}
-                                <li className="nav-item">
-                                    <Link className='nav-link ' to="./">Über uns</Link>
+                                    <Link className='nav-link active text-uppercase' to="./">Home</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className='nav-link ' to="./contact">Über Drusen</Link>
+                                    <Link className='nav-link text-uppercase' to="./">Über uns</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className='nav-link ' to="./contact">Nachrichten</Link>
+                                    <Link className='nav-link text-uppercase' to="./about-druse">Über Drusen</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className='nav-link ' to="./contact">Registrieren</Link>
+                                    <Link className='nav-link text-uppercase' to="./">Nachrichten</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className='nav-link ' to="/contact">Contact</Link>
+                                    <Link className='nav-link text-uppercase' to="./">Registrieren</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className='nav-link ' to="./impressum">Impressum</Link>
+                                    <Link className='nav-link text-uppercase' to="/contact">Contact</Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className='nav-link text-uppercase' to="./impressum">Impressum</Link>
                                 </li>
                             </ul>
 

@@ -7,31 +7,13 @@ const LandingPage = () => {
         <div className="container my-5 py-5">
             <div className="row ">
                 <h5 className='text-muted'>AKTUELLE VERANSTALTUNGEN</h5>
-                <div className="col-md-4">
+                <div className="col-md-6">
                     <div className="custom-card">
-                        <img className='custom-card-img' alt='Architektur Bild' src={require('../static/imgs/kreuzkirche.jpeg')}></img>
-                        <div className="custom-card-content">
-                            <div className="custom-card-body">
-                                <h3>kreuzkirche</h3>
-                                <p className='text-dark fw-bold'>18.09.2022</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
-                            <div className="custom-card-footer">
-                                <p><a className="btn btn-primary" href="/">View details</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col-md-4">
-                    <div className="custom-card">
-                        <img className='custom-card-img' alt='Architektur Bild' src={require('../static/imgs/234cd8fe-89bc-45f6-b88a-79a38af28d26.jpg')}></img>
-                        <div className="custom-card-content">
-                            <div className="custom-card-body">
-                                <h3>Albrechtsburg Meissen</h3>
-                                <p className='text-dark fw-bold'>11.09.2022</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                            </div>
+                        <img className="custom-card-img" src={require('../static/imgs/kreuzkirche.jpeg')} alt="brown couch" ></img>
+                        <div class="custom-card-contnet">
+                            <time datetime="2021-03-30" className="custom-card-date">18 August 2022</time>
+                            <h3 className="custom-card-title">kreuzkirche</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             <div className="custom-card-footer">
                                 <p><a className="btn btn-primary" href="#">View details</a></p>
                             </div>
@@ -39,15 +21,29 @@ const LandingPage = () => {
                     </div>
                 </div>
 
-                <div className="col-md-4">
+                <div className="col-md-6">
                     <div className="custom-card">
-                        <img className='custom-card-img' alt='Architektur Bild' src={require('../static/imgs/227029030_849149242420787_6636204124649932930_n.jpg')}></img>
-                        <div className="custom-card-content">
-                            <div className="custom-card-body">
-                                <h3>Technische Sammlungen</h3>
-                                <p className='text-dark fw-bold'>15.06.2022</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <img className="custom-card-img" src={require('../static/imgs/234cd8fe-89bc-45f6-b88a-79a38af28d26.jpg')} alt="brown couch" ></img>
+                        <div class="custom-card-contnet">
+                            <time datetime="2021-03-30" className="custom-card-date">30 März 2021</time>
+                            <h3 className="custom-card-title">Albrechtsburg Meissen</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <div className="custom-card-footer">
+                                <p><a className="btn btn-primary" href="#">View details</a></p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="row">
+                <div className="col-md-6">
+                <div className="custom-card">
+                        <img className="custom-card-img" src={require('../static/imgs/227029030_849149242420787_6636204124649932930_n.jpg')} alt="brown couch" ></img>
+                        <div class="custom-card-contnet">
+                            <time datetime="2021-03-30" className="custom-card-date">15 Juni 2022</time>
+                            <h3 className="custom-card-title">Technische Sammlungen</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             <div className="custom-card-footer">
                                 <p><a className="btn btn-primary" href="#">View details</a></p>
                             </div>
