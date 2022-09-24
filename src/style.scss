@@ -70,11 +70,6 @@ $grays: (
 
 @import "bootstrap";
 
-a, span, h5, h3 , h2, h1, li{
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
 body{
   font-size: 14px;
 }

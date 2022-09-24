@@ -10,19 +10,19 @@ const Footer = () => {
     <footer className="py-5 bg-primary mt-5">
       <div className="container">
         <div className="row my-5">
-          <div className="col-3 text-light">
-            <h6 className="text-info text-uppercase">
+          <div className="col-lg-3 col-sm-6 text-light">
+            <h6 className="text-info text-uppercase text-truncate">
               Drusen in Sachsen e. V.{" "}
             </h6>
 
             <small className="d-block mb-3 text-secondary">2022</small>
           </div>
-          <div className="col-3">
-            <h6 className="text-info text-uppercase">Über uns</h6>
+          <div className="col-lg-3 col-sm-6">
+            <h6 className="text-info text-uppercase text-truncate">Über uns</h6>
             <ul className="list-unstyled text-small">
               <li>
                 <Link
-                  className="dropdown-item text-secondary secondaryHover text-uppercase"
+                  className="dropdown-item text-secondary secondaryHover text-uppercase text-truncate"
                   to="/contact"
                 >
                   Über uns
@@ -30,7 +30,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  className="dropdown-item text-secondary secondaryHover text-uppercase"
+                  className="dropdown-item text-secondary secondaryHover text-uppercase text-truncate"
                   to="/contact"
                 >
                   Über Drusen
@@ -38,7 +38,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  className="dropdown-item text-secondary secondaryHover text-uppercase"
+                  className="dropdown-item text-secondary secondaryHover text-uppercase text-truncate"
                   to="/contact"
                 >
                   Nachrichten
@@ -46,7 +46,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  className="dropdown-item text-secondary secondaryHover text-uppercase"
+                  className="dropdown-item text-secondary secondaryHover text-uppercase text-truncate"
                   to="/contact"
                 >
                   Kontakt
@@ -54,12 +54,12 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-3">
+          <div className="col-lg-3 col-sm-6">
             <h6 className="text-info text-uppercase">Veranstaltungen</h6>
             <ul className="list-unstyled text-small ">
               <li>
                 <Link
-                  className="dropdown-item text-secondary secondaryHover"
+                  className="dropdown-item text-secondary secondaryHover text-truncate"
                   to="/functionality"
                 >
                   11.09.2022 Albrechtsburg Meissen
@@ -67,7 +67,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  className="dropdown-item text-secondary secondaryHover"
+                  className="dropdown-item text-secondary secondaryHover text-truncate"
                   to="/functionality"
                 >
                   17.09.2022 Dresden japanisches palais
@@ -75,7 +75,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  className="dropdown-item text-secondary secondaryHover"
+                  className="dropdown-item text-secondary secondaryHover text-truncate"
                   to="/functionality"
                 >
                   22.10.2022 Spaziergang
@@ -83,7 +83,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  className="dropdown-item text-secondary secondaryHover"
+                  className="dropdown-item text-secondary secondaryHover text-truncate"
                   to="/functionality"
                 >
                   11.12.2022 Robot Programming for Everyone
@@ -91,10 +91,10 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-3">
+          <div className="col-lg-3 col-sm-6">
             <h6 className="text-info text-uppercase">Information</h6>
             <ul className="list-unstyled text-small ">
-              <li className="dropdown-item text-secondary non-hover">
+              <li className="dropdown-item text-secondary non-hover text-truncate">
                 <FontAwesomeIcon icon={faEnvelope} className="me-2" />
                 <a
                   className="text-light"
@@ -103,7 +103,7 @@ const Footer = () => {
                   Drusen-in-sachsen@outlook.de
                 </a>
               </li>
-              <li className="dropdown-item text-secondary non-hover">
+              <li className="dropdown-item text-secondary non-hover text-truncate">
                 VR11705 - Amtsgericht Dresden <br /> Eintragung am 29 Oktober
                 2020
               </li>
