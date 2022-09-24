@@ -70,6 +70,18 @@ $grays: (
 
 @import "bootstrap";
 
+a, span, h5, h3 , h2, h1, li{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+body{
+  font-size: 14px;
+}
+.navbar-brand{
+  font-size: 16px;
+}
+
 .head-logo{
   filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.2));
   transition: all 0.5s;
@@ -167,8 +179,16 @@ p{
   flex: 1;
 }
 
-.custom-card-contnet {
+.custom-card-content {
   width: 100%;
+  height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+.custom-card-text{
+  flex: 1 1 auto;
+
 }
 
 .custom-card-date {
