@@ -5,6 +5,27 @@ const LandingPage = () => {
   return (
     <div className="container my-5 py-5">
       <div className="row ">
+        <div className="col-lg-6">
+          <h5 className="text-muted">Unser nächstes Treffen</h5>
+          <h3>Sonntag, 02. Oktober 2022, 14 Uhr</h3>
+          <p>Japanisches Palais Palaisplatz 11, 01097 Dresden</p>
+        </div>
+        <div className="col-lg-6">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10030.547794942631!2d13.7374064!3d51.0597911!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbd78b3e35dbdfc12!2sJapanisches%20Palais!5e0!3m2!1sde!2sde!4v1664044865702!5m2!1sde!2sde"
+            width="100%"
+            height="200px"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+
+      <hr className="mt-5 mb-5" />
+
+      <div className="row ">
         <h5 className="text-muted">AKTUELLE VERANSTALTUNGEN</h5>
         <h3>Interkultureller Austausch für Menschen im besten Alter </h3>
         <Posts />

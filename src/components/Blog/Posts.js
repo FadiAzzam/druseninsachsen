@@ -4,6 +4,7 @@ import Post from "./Post";
 import kreuzkirche from "../../static/imgs/kreuzkirche.jpeg";
 import Albrechtsburg from "../../static/imgs/234cd8fe-89bc-45f6-b88a-79a38af28d26.jpg";
 import TechnischeSammlung from "../../static/imgs/227029030_849149242420787_6636204124649932930_n.jpg";
+import Austausch from "../../static/imgs/Austausch.png";
 
 const Posts = () => {
   const blogPosts = [
@@ -25,6 +26,16 @@ const Posts = () => {
       Teilnehmende!`,
       date: "30 März 2021",
       imgUrl: Albrechtsburg,
+    },
+    {
+      title: "Interkultureller Austausch",
+      body: `
+        Unter dem Motto "Zu Tisch bei Freunden" sind 10 Menschen zusammengekommen, 
+        um gemeinsam gutes Essen zu genießen. Unter den selbst zubereiteten Leckereien waren Tabouli- und 
+        Kartoffelsalat, gefüllte Weinblätter und Rhabarberkuchen - köstlich! Wir danken den Technischen 
+        Sammlungen Dresden, dass sie uns ihre Räumlichkeiten zur Verfügung gestellt haben!`,
+      date: "15 Juni 2022",
+      imgUrl: Austausch,
     },
     {
       title: "Technische Sammlungen",
