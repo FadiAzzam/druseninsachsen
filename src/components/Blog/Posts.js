@@ -1,6 +1,7 @@
 import React from "react";
 import Post from "./Post";
 
+import Damaskus from "../../static/imgs/damascus.JPG";
 import kreuzkirche from "../../static/imgs/kreuzkirche.jpeg";
 import Albrechtsburg from "../../static/imgs/234cd8fe-89bc-45f6-b88a-79a38af28d26.jpg";
 import TechnischeSammlung from "../../static/imgs/227029030_849149242420787_6636204124649932930_n.jpg";
@@ -8,6 +9,12 @@ import Austausch from "../../static/imgs/Austausch.png";
 
 const Posts = () => {
   const blogPosts = [
+    {
+      title: "Damaskuszimmer",
+      body: `Einblick in Damaszener Gastfreundschaft im 19. Jahrhundert. Japanisches Palais `,
+      date: "02 Oktober 2022",
+      imgUrl: Damaskus,
+    },
     {
       title: "kreuzkirche",
       body: `Lorem ipsum dolor sit amet consectetur adipisicing elit.`,

@@ -4,7 +4,7 @@ import Posts from "./Blog/Posts";
 const LandingPage = () => {
   return (
     <div className="container my-5 py-5">
-      <div className="row ">
+      {/* <div className="row ">
         <div className="col-lg-6">
           <h5 className="text-muted">Unser nächstes Treffen</h5>
           <h3>Sonntag, 02. Oktober 2022, 14 Uhr</h3>
@@ -23,7 +23,7 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <hr className="mt-5 mb-5" />
+      <hr className="mt-5 mb-5" /> */}
 
       <div className="row ">
         <h5 className="text-muted">AKTUELLE VERANSTALTUNGEN</h5>
@@ -92,7 +92,7 @@ const LandingPage = () => {
       <hr className="mt-5 mb-5" />
 
       {/* SCREENSHOTS */}
-      <div className="row">
+      {/* <div className="row">
         <div className="col-md-12">
           <h5 className="text-muted">Gallery</h5>
           <h3 className="mb-3">Bilder aus den Veranstaltungen.</h3>
@@ -230,7 +230,7 @@ const LandingPage = () => {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
