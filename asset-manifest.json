@@ -1,19 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.26708192.css",
-    "main.js": "/static/js/main.21506af1.js",
+    "main.css": "/static/css/main.42ad266d.css",
+    "main.js": "/static/js/main.b08ad7e2.js",
     "static/media/fadi-alagi-yxl9NLYbo7o-unsplash.jpg": "/static/media/fadi-alagi-yxl9NLYbo7o-unsplash.4d237ae158d8cbba8981.jpg",
     "static/media/Druzen_Bev_lkerungszahlen.png": "/static/media/Druzen_Bev_lkerungszahlen.4f3d57d3dd758cfb5fd8.png",
     "static/media/234cd8fe-89bc-45f6-b88a-79a38af28d26.jpg": "/static/media/234cd8fe-89bc-45f6-b88a-79a38af28d26.aa983c77a637bd9bfb03.jpg",
-    "static/media/groupBild03.jpeg": "/static/media/groupBild03.aa983c77a637bd9bfb03.jpeg",
-    "static/media/groupBild.jpeg": "/static/media/groupBild.713ffd0a8367658cd132.jpeg",
     "static/media/Austausch.png": "/static/media/Austausch.1b9dc8faf90f4735a655.png",
     "static/media/romanTheatre.jpg": "/static/media/romanTheatre.cc4fde5c591f67e03bb1.jpg",
-    "static/media/groupBild06.jpeg": "/static/media/groupBild06.192b223a807617b37be4.jpeg",
-    "static/media/groupBild02.jpeg": "/static/media/groupBild02.8e02fe3e050e16eb6718.jpeg",
-    "static/media/groupBild01.jpeg": "/static/media/groupBild01.b53e797e73b6d6bf1156.jpeg",
-    "static/media/groupBild05.jpeg": "/static/media/groupBild05.5eb520912944b915754b.jpeg",
-    "static/media/groupBild04.jpeg": "/static/media/groupBild04.339f2d695a75ee29e6bd.jpeg",
+    "static/media/damascus.JPG": "/static/media/damascus.9258e99065a16cc8e3a1.JPG",
     "static/media/DIS e. V. Mitglied-Versamm-Deutsch.pdf": "/static/media/DIS e. V. Mitglied-Versamm-Deutsch.96a63f6f0d996584a6b3.pdf",
     "static/media/roboto-all-400-normal.woff": "/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
     "static/media/227029030_849149242420787__n.jpg": "/static/media/227029030_849149242420787_6636204124649932930_n.8fd8f9b4852ea38ab850.jpg",
@@ -26,11 +20,11 @@
     "static/media/roboto-vietnamese-400-normal.woff2": "/static/media/roboto-vietnamese-400-normal.3230f9b040f3c630e0c3.woff2",
     "static/media/roboto-greek-ext-400-normal.woff2": "/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "index.html": "/index.html",
-    "main.26708192.css.map": "/static/css/main.26708192.css.map",
-    "main.21506af1.js.map": "/static/js/main.21506af1.js.map"
+    "main.42ad266d.css.map": "/static/css/main.42ad266d.css.map",
+    "main.b08ad7e2.js.map": "/static/js/main.b08ad7e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.26708192.css",
-    "static/js/main.21506af1.js"
+    "static/css/main.42ad266d.css",
+    "static/js/main.b08ad7e2.js"
   ]
 }
