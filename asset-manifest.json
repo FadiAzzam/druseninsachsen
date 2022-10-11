@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e065bc21.css",
+    "main.css": "/static/css/main.a342d143.css",
     "main.js": "/static/js/main.5754a36e.js",
     "static/media/fadi-alagi-yxl9NLYbo7o-unsplash.jpg": "/static/media/fadi-alagi-yxl9NLYbo7o-unsplash.4d237ae158d8cbba8981.jpg",
     "static/media/Druzen_Bev_lkerungszahlen.png": "/static/media/Druzen_Bev_lkerungszahlen.4f3d57d3dd758cfb5fd8.png",
@@ -21,11 +21,11 @@
     "static/media/roboto-vietnamese-400-normal.woff2": "/static/media/roboto-vietnamese-400-normal.3230f9b040f3c630e0c3.woff2",
     "static/media/roboto-greek-ext-400-normal.woff2": "/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "index.html": "/index.html",
-    "main.e065bc21.css.map": "/static/css/main.e065bc21.css.map",
+    "main.a342d143.css.map": "/static/css/main.a342d143.css.map",
     "main.5754a36e.js.map": "/static/js/main.5754a36e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e065bc21.css",
+    "static/css/main.a342d143.css",
     "static/js/main.5754a36e.js"
   ]
 }
