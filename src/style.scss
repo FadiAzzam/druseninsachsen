@@ -90,6 +90,14 @@ p{
 	text-align: justify
 }
 
+.imgHoverZoomOut:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
 
 .btn-primary{
   background-color: $btn-primary;
@@ -154,7 +162,7 @@ p{
 
 
 .custom-card {
-	max-width: 960px;
+	//max-width: 960px;
   box-shadow: 24px 24px 80px rgba(0,0,0,0.1);
   padding: 20px 20px 28px 20px;
   box-sizing: border-box;
@@ -172,6 +180,7 @@ p{
   object-fit: cover;
   margin-bottom: 18px;
   flex: 1;
+  transition: .3s ease-in-out;
 }
 
 .custom-card-content {

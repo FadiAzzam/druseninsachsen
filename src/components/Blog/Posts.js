@@ -1,6 +1,7 @@
 import React from "react";
 import Post from "./Post";
 
+import Mitgliederversammlung from "../../static/imgs/Mitgliederversammlung.JPG";
 import Damaskus from "../../static/imgs/damascus.JPG";
 import kreuzkirche from "../../static/imgs/kreuzkirche.jpeg";
 import Albrechtsburg from "../../static/imgs/234cd8fe-89bc-45f6-b88a-79a38af28d26.jpg";
@@ -10,16 +11,25 @@ import Austausch from "../../static/imgs/Austausch.png";
 const Posts = () => {
   const blogPosts = [
     {
+      title: "Mitgliederversammlung",
+      body: `die 2. ordentliche Mitgliederversammlung des Drusen in Sachsen e.V.`,
+      date: "09 Oktober 2022",
+      imgUrl: Mitgliederversammlung,
+      width: "col-12",
+    },
+    {
       title: "Damaskuszimmer",
       body: `Einblick in Damaszener Gastfreundschaft im 19. Jahrhundert. Japanisches Palais `,
       date: "02 Oktober 2022",
       imgUrl: Damaskus,
+      src: "ingenieure-ohne-grenzen.org",
     },
     {
       title: "kreuzkirche",
       body: `Lorem ipsum dolor sit amet consectetur adipisicing elit.`,
       date: "18 August 2022",
       imgUrl: kreuzkirche,
+      src: "ingenieure-ohne-grenzen.org",
     },
     {
       title: "Albrechtsburg Meissen",
@@ -33,6 +43,7 @@ const Posts = () => {
       Teilnehmende!`,
       date: "30 März 2021",
       imgUrl: Albrechtsburg,
+      src: "ingenieure-ohne-grenzen.org",
     },
     {
       title: "Interkultureller Austausch",
@@ -43,6 +54,7 @@ const Posts = () => {
         Sammlungen Dresden, dass sie uns ihre Räumlichkeiten zur Verfügung gestellt haben!`,
       date: "15 Juni 2022",
       imgUrl: Austausch,
+      src: "ingenieure-ohne-grenzen.org",
     },
     {
       title: "Technische Sammlungen",
@@ -50,6 +62,7 @@ const Posts = () => {
       `,
       date: "15 Juni 2022",
       imgUrl: TechnischeSammlung,
+      src: "ingenieure-ohne-grenzen.org",
     },
   ];
 

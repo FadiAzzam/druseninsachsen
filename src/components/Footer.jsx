@@ -23,7 +23,7 @@ const Footer = () => {
               <li>
                 <Link
                   className="dropdown-item text-secondary secondaryHover text-uppercase text-truncate"
-                  to="/contact"
+                  to="/"
                 >
                   Über uns
                 </Link>
@@ -31,7 +31,7 @@ const Footer = () => {
               <li>
                 <Link
                   className="dropdown-item text-secondary secondaryHover text-uppercase text-truncate"
-                  to="/contact"
+                  to="/"
                 >
                   Über Drusen
                 </Link>
@@ -39,7 +39,7 @@ const Footer = () => {
               <li>
                 <Link
                   className="dropdown-item text-secondary secondaryHover text-uppercase text-truncate"
-                  to="/contact"
+                  to="/"
                 >
                   Nachrichten
                 </Link>

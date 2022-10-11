@@ -6,20 +6,15 @@ import Footer from "./components/Footer";
 import Impressum from "./components/Impressum";
 import Faq from "./components/Faq";
 
-
 import AboutDurse from "./components/AboutDurse";
 
+import { BrowserRouter as Router } from "react-router-dom";
 
-import {
-  BrowserRouter as Router,
-} from "react-router-dom";
-
-import { Routes, Route } from 'react-router-dom';
-
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <div className="App">
         <Header />
         <Routes>
@@ -32,7 +27,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 

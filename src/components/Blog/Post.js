@@ -1,10 +1,15 @@
 import React from "react";
-const Post = ({ post: { title, body, imgUrl, date, author }, index }) => {
-  console.log(imgUrl);
+const Post = ({ post: { title, body, imgUrl, date, src, width }, index }) => {
   return (
-    <div className="col-md-6">
+    <div className={`${width ? width : "col-md-6"}`}>
       <div className="custom-card">
-        <img className="custom-card-img" src={imgUrl} alt="brown couch"></img>
+        <figure className="overflow-hidden">
+          <img
+            className="custom-card-img imgHoverZoomOut"
+            src={imgUrl}
+            alt="brown couch"
+          ></img>
+        </figure>
         <div className="custom-card-content">
           <time dateTime="2021-03-30" className="custom-card-date">
             {date}
@@ -18,14 +23,18 @@ const Post = ({ post: { title, body, imgUrl, date, author }, index }) => {
               </a>
             </p>
             <small>
-              Quelle:{" "}
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://www.ingenieure-ohne-grenzen.org/de/unsere-arbeit/projekte/BILA-DD-01"
-              >
-                ingenieure-ohne-grenzen.org
-              </a>
+              {src ? (
+                <>
+                  Quelle:
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.ingenieure-ohne-grenzen.org/de/unsere-arbeit/projekte/BILA-DD-01"
+                  >
+                    {src}
+                  </a>
+                </>
+              ) : null}
             </small>
           </div>
         </div>
