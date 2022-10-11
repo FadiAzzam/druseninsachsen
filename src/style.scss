@@ -5,7 +5,9 @@ $BalticSea:#2B2C33;
 $CarbonGrey:#605E5E;
 $Platinum:#E7E3E3;
 
-
+:root{
+  --bs-font-sans-serif: system-ui,-apple-system,Cairo,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"!important;
+}
 
 
 $blue:    #184a7c;
