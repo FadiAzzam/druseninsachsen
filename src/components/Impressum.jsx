@@ -1,19 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function Impressum() {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+  }, [])
+
   return (
-    <div className="container py-4 min-vh-100">
+    <div className="container py-4 min-vh-100 mt-5">
       <div className="card">
         <div className="card-header">Impressum</div>
         <div className="card-body">
           <div>
             <strong>Drusen in Sachsen &nbsp;e. V.</strong>
           </div>
-          <p>test. 12 12345 Dresden</p>
+          {/* <p>test. 12 12345 Dresden</p>
           <div>
             <strong>Telefon</strong>
           </div>
-          <p>+49 (0)815/1234567</p>
+          <p>+49 (0)815/1234567</p> */}
 
           <div>
             <strong>E-Mail</strong>
@@ -21,7 +29,7 @@ export default function Impressum() {
           <p>Drusen-in-sachsen@outlook.de</p>
 
           <hr />
-          <div>
+          {/* <div>
             <strong>Gemeinschaftlich vertretungsberechtigt</strong>
           </div>
           <ol>
@@ -60,7 +68,7 @@ export default function Impressum() {
               </div>
               <p>Drusen-in-sachsen@outlook.de</p>
             </li>
-          </ol>
+          </ol> */}
 
           <div>
             <p>
@@ -70,7 +78,7 @@ export default function Impressum() {
               </a>
             </p>
           </div>
-
+          {/* 
           <div>
             <strong>Registergericht</strong>
           </div>
@@ -84,12 +92,12 @@ export default function Impressum() {
           <div>
             <strong>Umsatzsteuer-Identifikationsnummer</strong>
           </div>
-          <p>..</p>
+          <p>..</p> */}
 
-          <div>
+          {/* <div>
             <strong>Verantwortliche V.i.S.d § 18 Abs. 2 MStV</strong>
           </div>
-          <p>Andreas Mustermann, Musterstr. 1, 12345 Musterstadt</p>
+          <p>Andreas Mustermann, Musterstr. 1, 12345 Musterstadt</p> */}
           <hr />
           <ol>
             <li>

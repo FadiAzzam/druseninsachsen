@@ -1,7 +1,7 @@
 import React from "react";
 const Post = ({ post: { title, body, imgUrl, date, src, width }, index }) => {
   return (
-    <div className={`${width ? width : "col-md-6"}`}>
+    <div className={`${width ? width : "col-md-6"} pb-3`}>
       <div className="custom-card">
         <figure className="overflow-hidden">
           <img
@@ -18,9 +18,9 @@ const Post = ({ post: { title, body, imgUrl, date, src, width }, index }) => {
           <p className="custom-card-text">{body}</p>
           <div className="custom-card-footer">
             <p>
-              <a className="btn btn-primary" href="#">
-                View details
-              </a>
+              {/* <a className="btn btn-primary" href="#">
+                Weiterlesen
+              </a> */}
             </p>
             <small>
               {src ? (

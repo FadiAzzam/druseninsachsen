@@ -11,19 +11,25 @@ const Footer = () => {
       <div className="container">
         <div className="row my-5">
           <div className="col-lg-3 col-sm-6 text-light">
-            <h6 className="text-info text-uppercase text-truncate">
-              Drusen in Sachsen e. V.{" "}
-            </h6>
+
+            <Link
+              className=""
+              to="/"
+            >
+              <h6 className="text-info text-uppercase text-truncate">
+                Drusen in Sachsen e. V.{" "}
+              </h6>
+            </Link>
 
             <small className="d-block mb-3 text-secondary">2022</small>
           </div>
           <div className="col-lg-3 col-sm-6">
-            <h6 className="text-info text-uppercase text-truncate">Über uns</h6>
+            <h6 className="text-info text-uppercase text-truncate">Quicklinks</h6>
             <ul className="list-unstyled text-small">
               <li>
                 <Link
                   className="dropdown-item text-secondary secondaryHover text-uppercase text-truncate"
-                  to="/"
+                  to="/about"
                 >
                   Über uns
                 </Link>
@@ -31,17 +37,9 @@ const Footer = () => {
               <li>
                 <Link
                   className="dropdown-item text-secondary secondaryHover text-uppercase text-truncate"
-                  to="/"
+                  to="/about-druse"
                 >
                   Über Drusen
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className="dropdown-item text-secondary secondaryHover text-uppercase text-truncate"
-                  to="/"
-                >
-                  Nachrichten
                 </Link>
               </li>
               <li>
@@ -52,6 +50,15 @@ const Footer = () => {
                   Kontakt
                 </Link>
               </li>
+              <li>
+                <Link
+                  className="dropdown-item text-secondary secondaryHover text-uppercase text-truncate"
+                  to="/impressum"
+                >
+                  Impressum
+                </Link>
+              </li>
+
             </ul>
           </div>
           <div className="col-lg-3 col-sm-6">
@@ -60,7 +67,7 @@ const Footer = () => {
               <li>
                 <Link
                   className="dropdown-item text-secondary secondaryHover text-truncate"
-                  to="/functionality"
+                  to="./"
                 >
                   11.09.2022 Albrechtsburg Meissen
                 </Link>
@@ -68,7 +75,7 @@ const Footer = () => {
               <li>
                 <Link
                   className="dropdown-item text-secondary secondaryHover text-truncate"
-                  to="/functionality"
+                  to="./"
                 >
                   17.09.2022 Dresden japanisches palais
                 </Link>
@@ -76,7 +83,7 @@ const Footer = () => {
               <li>
                 <Link
                   className="dropdown-item text-secondary secondaryHover text-truncate"
-                  to="/functionality"
+                  to="./"
                 >
                   22.10.2022 Spaziergang
                 </Link>
@@ -84,7 +91,7 @@ const Footer = () => {
               <li>
                 <Link
                   className="dropdown-item text-secondary secondaryHover text-truncate"
-                  to="/functionality"
+                  to="./"
                 >
                   11.12.2022 Robot Programming for Everyone
                 </Link>

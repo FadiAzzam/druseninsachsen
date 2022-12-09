@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Sultan from "../static/imgs/aboutDruse/sultan.jpeg";
 import Asmahan from "../static/imgs/aboutDruse/asmahan.png";
 import Kamal from "../static/imgs/aboutDruse/kamal.jpeg";
@@ -6,6 +6,13 @@ import Fared from "../static/imgs/aboutDruse/fareed.jpeg";
 import Mofaq from "../static/imgs/aboutDruse/mofaq.png";
 
 const AboutDurse = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+  }, [])
   return (
     <div className="container my-5 py-5">
       <h3 className="mb-5">ÜBER DRÜSEN</h3>

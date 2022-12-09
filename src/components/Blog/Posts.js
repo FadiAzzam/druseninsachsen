@@ -1,6 +1,7 @@
 import React from "react";
 import Post from "./Post";
 
+import TreffenTechnischenSammlungen from "../../static/imgs/Treffen in den Technischen Sammlungen.jpg";
 import Mitgliederversammlung from "../../static/imgs/Mitgliederversammlung.JPG";
 import Damaskus from "../../static/imgs/damascus.JPG";
 import kreuzkirche from "../../static/imgs/kreuzkirche.jpeg";
@@ -11,11 +12,23 @@ import Austausch from "../../static/imgs/Austausch.png";
 const Posts = () => {
   const blogPosts = [
     {
+      title: "Treffen in den Technischen Sammlungen",
+      body: `Am ersten Advent sind wir zu einem kreativen Treffen in den Technischen Sammlungen Dresden zusammengetroffen. 
+          Bei leckeren Snacks und freundlichen Gesprächen konnten wir unserer Phantasie freien Lauf lassen: Aus etwas Fimo, 
+          viel guter Laune und witzigen Einfällen entstanden zahlreiche kleine Skuplturen. 
+          Zum Abschluß des Treffens haben die Teilnehmenden einander ihre Werke zum Geschenk gemacht - ein schönes Zeichen der kulturübergreifenden Verbundenheit!`
+      ,
+      date: "27. November 2022",
+      imgUrl: TreffenTechnischenSammlungen,
+      width: "col-6",
+      src: "ingenieure-ohne-grenzen.org",
+    },
+    {
       title: "Mitgliederversammlung",
       body: `die 2. ordentliche Mitgliederversammlung des Drusen in Sachsen e.V.`,
       date: "09 Oktober 2022",
       imgUrl: Mitgliederversammlung,
-      width: "col-12",
+      width: "col-6",
     },
     {
       title: "Damaskuszimmer",

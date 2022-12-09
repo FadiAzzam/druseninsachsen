@@ -371,3 +371,112 @@ p{
   color: $Platinum;
 }
 
+
+
+.m-h-100px{
+  @media (min-width: 992px){
+    min-height: 100px;
+  }
+}
+
+
+
+
+
+@-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
+.snowflake {
+  color: #fff;
+  font-size: 1.5em;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 5px #000;
+  z-index: 9999999999999999999999999;
+}
+
+.merryBox{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+  background: #00000099;
+}
+
+.merryCard {
+  gap: 7px;
+  color: white;
+  text-align: center;
+  justify-self: center;
+  font-size: 2rem;
+  height: 65%;
+  justify-content: center;
+  display: flex;
+  background: #142715;
+  flex-direction: column;
+  position: relative;
+  width: 95%;
+}
+
+.merryCard h1{
+  font-family: 'Mountains of Christmas', cursive;
+  text-shadow: 0 2px 0 rgb(0 0 0 / 25%);
+}
+
+
+
+
+.loading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.spinner {
+  background-color: transparent;
+  border: 2px solid #999;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border-top-color: red;
+  animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.countdown {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: top;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+.countdown p {
+  padding: 7px;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  background-color: #A11D21;
+  text-align: center;
+
+}
+
+.countdown h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.closeBtn{
+  position: absolute;
+    top: 0;
+    right: 10px;
+}
