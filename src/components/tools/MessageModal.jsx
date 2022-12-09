@@ -103,7 +103,7 @@ const MessageModal = ({ setModal }) => {
                     </button>
                     <h1 className="mb-3 display-1">Frohe Weihnachten</h1>
                     <p className="lead mb-0 text-center">Der Vorstand wünscht allen Mitgliedern, Familienangehörigen und Freunden ein frohes Weihnachtsfest<br></br>
-                        und einen guten Rutsch in das Ruderjahr 2023</p>
+                        und einen guten Rutsch in das neue Jahr 2023</p>
                     {isLoading ? (
                         <div className="loading">
                             <div className="spinner"></div>
