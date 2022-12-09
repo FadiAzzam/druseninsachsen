@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b74a2488.css",
+    "main.css": "/static/css/main.ec1947bf.css",
     "main.js": "/static/js/main.ef2a9012.js",
     "static/media/essa-mhmad-_IzsIUGy4tQ-unsplash.jpg": "/static/media/essa-mhmad-_IzsIUGy4tQ-unsplash.e628cb246d55dca34ce1.jpg",
     "static/media/fadi-alagi-yxl9NLYbo7o-unsplash.jpg": "/static/media/fadi-alagi-yxl9NLYbo7o-unsplash.4d237ae158d8cbba8981.jpg",
@@ -29,11 +29,11 @@
     "static/media/roboto-vietnamese-400-normal.woff2": "/static/media/roboto-vietnamese-400-normal.3230f9b040f3c630e0c3.woff2",
     "static/media/roboto-greek-ext-400-normal.woff2": "/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "index.html": "/index.html",
-    "main.b74a2488.css.map": "/static/css/main.b74a2488.css.map",
+    "main.ec1947bf.css.map": "/static/css/main.ec1947bf.css.map",
     "main.ef2a9012.js.map": "/static/js/main.ef2a9012.js.map"
   },
   "entrypoints": [
-    "static/css/main.b74a2488.css",
+    "static/css/main.ec1947bf.css",
     "static/js/main.ef2a9012.js"
   ]
 }
