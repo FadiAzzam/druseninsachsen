@@ -1,5 +1,20 @@
-import React from "react";
+import React, { useRef } from "react";
 import Logo from "../static/imgs/Logo";
+
+import html2canvas from "html2canvas";
+import jsPDF from "jspdf";
+
+const printDocument = () => {
+  const input = document.getElementById("divToPrint");
+  html2canvas(input).then((canvas) => {
+    let imgWidth = 208;
+    //let imgHeight = (canvas.height * imgWidth) / canvas.width;
+    const imgData = canvas.toDataURL("img/png");
+    const pdf = new jsPDF("p", "mm", "a4");
+    pdf.addImage(imgData, "JPEG", 20, 20, 170, 260);
+    pdf.save("download.pdf");
+  });
+};
 
 const Bundeslaender = [
   "Baden Württemberg",
@@ -30,6 +45,8 @@ const Familienstand = [
   "eingetragene Lebenspartnerschaft aufgehoben",
 ];
 const Registering = () => {
+  const canvasRef = useRef();
+
   return (
     <>
       <div className="bg-dark">
@@ -49,7 +66,7 @@ const Registering = () => {
 
       <div className="py-5">
         <div className="container py-5">
-          <div className="RegisteringForm p-5">
+          <div className="RegisteringForm p-5" id="divToPrint">
             <div className="row g-3">
               <div className="col-sm-12">
                 <Logo width="100%" height="100px" className="head-logo" />
@@ -341,9 +358,15 @@ const Registering = () => {
                     </label>
                   </div>
 
-                  <div>
-                    <button className="btn btn-primary" type="submit">
+                  <div className="d-flex justify-content-between">
+                    <button className="btn btn-primary disabled">
                       Registrieren
+                    </button>
+                    <button
+                      className="btn text-info"
+                      onClick={() => printDocument()}
+                    >
+                      Formular herunterladen
                     </button>
                   </div>
                 </div>
