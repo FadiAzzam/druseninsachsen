@@ -8,6 +8,7 @@ import Faq from "./components/Faq";
 
 import About from "./components/About";
 import AboutDurse from "./components/AboutDurse";
+import Registering from "./components/Registering";
 
 import { HashRouter, Routes, Route } from "react-router-dom";
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/impressum" element={<Impressum />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/about-druse" element={<AboutDurse />} />
+          <Route path="/registering" element={<Registering />} />
 
           <Route path="/contact" element={<Contact />} />
         </Routes>

@@ -48,6 +48,14 @@ const Header = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
+                  <Link
+                    className="nav-link active text-uppercase"
+                    to="./registering"
+                  >
+                    Registering
+                  </Link>
+                </li>
+                <li className="nav-item">
                   <Link className="nav-link text-uppercase" to="./about">
                     Über uns
                   </Link>
