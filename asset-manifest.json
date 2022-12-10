@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae4a1694.css",
-    "main.js": "/static/js/main.2e660522.js",
+    "main.css": "/static/css/main.554a0f4e.css",
+    "main.js": "/static/js/main.2066cbee.js",
     "static/media/essa-mhmad-_IzsIUGy4tQ-unsplash.jpg": "/static/media/essa-mhmad-_IzsIUGy4tQ-unsplash.e628cb246d55dca34ce1.jpg",
     "static/media/fadi-alagi-yxl9NLYbo7o-unsplash.jpg": "/static/media/fadi-alagi-yxl9NLYbo7o-unsplash.4d237ae158d8cbba8981.jpg",
     "static/media/essa-mhmad-qOIP6cDKTzY-unsplash.jpg": "/static/media/essa-mhmad-qOIP6cDKTzY-unsplash.c6a551e46e2ff44a13b8.jpg",
@@ -29,11 +29,11 @@
     "static/media/roboto-vietnamese-400-normal.woff2": "/static/media/roboto-vietnamese-400-normal.3230f9b040f3c630e0c3.woff2",
     "static/media/roboto-greek-ext-400-normal.woff2": "/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "index.html": "/index.html",
-    "main.ae4a1694.css.map": "/static/css/main.ae4a1694.css.map",
-    "main.2e660522.js.map": "/static/js/main.2e660522.js.map"
+    "main.554a0f4e.css.map": "/static/css/main.554a0f4e.css.map",
+    "main.2066cbee.js.map": "/static/js/main.2066cbee.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae4a1694.css",
-    "static/js/main.2e660522.js"
+    "static/css/main.554a0f4e.css",
+    "static/js/main.2066cbee.js"
   ]
 }
